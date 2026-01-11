@@ -1,0 +1,200 @@
+[
+  {
+    "name": "Red Security Pass",
+    "type": "toggle",
+    "img": "images/items/Security_pass_render_Red.png",
+    "codes": "Security_pass_Red, red"
+  },
+  {
+    "name": "Yellow Security Pass",
+    "type": "toggle",
+    "img": "images/items/Security_pass_render_Yellow.png",
+    "codes": "Security_pass_Yellow, yellow"
+  },
+  {
+    "name": "Green Security Pass",
+    "type": "toggle",
+    "img": "images/items/Security_pass_render_Green.png",
+    "codes": "Security_pass_Green, green "
+  },
+  {
+    "name": "Purple Security Pass",
+    "type": "toggle",
+    "img": "images/items/Security_pass_render_Purple.png",
+    "codes": "Security_pass_Purple, purple"
+  },
+  {
+    "name": "Black Security Pass",
+    "type": "toggle",
+    "img": "images/items/Security_pass_render_Black.png",
+    "codes": "Security_pass_Black, black"
+  },
+  {
+    "name": "Air Train",
+    "type": "toggle",
+    "img": "images/items/Air_train_render.png",
+    "codes": "Air_Train, train"
+  },
+  {
+    "name": "Scatter Gun",
+    "type":"toggle",
+    "img":"images/items/Scatter_Gun_render.png",
+    "codes": "Scatter_Gun, primary_guns, any_gun"
+  },
+  {
+    "name": "Blaster Gun",
+    "type": "toggle",
+    "img": "images/items/Blaster_render.png",
+    "codes": "Blaster, primary_guns, any_gun"
+  },
+  {
+    "name": "Vulcan Fury Gun",
+    "type": "toggle",
+    "img": "images/items/Vulcan_Fury_render.png",
+    "codes": "Vulcan_Fury, primary_guns, any_gun"
+  },
+  {
+    "name": "Peacemaker",
+    "type":"toggle",
+    "img": "images/items/Peace_Maker_render.png",
+    "codes": "Peace_Maker, any_gun"
+  },
+  {
+    "name": "Morph Gun Fire Rate Upgrade",
+    "type": "toggle",
+    "img": "images/items/Rate_of_Fire_Upgrade.png",
+    "codes": "Rate_of_Fire_Upgrade"
+  },
+  {
+    "name": "Morph Gun Ammo Upgrade",
+    "type": "toggle",
+    "img": "images/items/Ammo_Upgrade.png",
+    "codes": "Ammo_Upgrade"
+  },
+  {
+    "name": "Morph Gun Damage Upgrade",
+    "type": "toggle",
+    "img": "images/items/Damage_Upgrade.png",
+    "codes": "Damage_Upgrade"
+  },
+  {
+    "name": "Gear",
+    "type": "toggle",
+    "img": "images/items/Gear.png",
+    "codes": "Gear"
+  },
+  {
+    "name": "Lens",
+    "type": "toggle",
+    "img": "images/items/Lens.png",
+    "codes": "Lens"
+  },
+  {
+    "name": "Shard",
+    "type": "toggle",
+    "img": "images/items/Shard.png",
+    "codes": "Shard"
+  },
+  {
+    "name": "Seal Piece #1",
+    "type": "toggle",
+    "img": "images/items/Seal_Piece_1.png",
+    "codes": "Seal_Piece_1"
+  },
+  {
+    "name": "Seal Piece #2",
+    "type": "toggle",
+    "img": "images/items/Seal_Piece_2.png",
+    "codes": "Seal_Piece_2"
+  },
+  {
+    "name": "Seal Piece #3",
+    "type": "toggle",
+    "img": "images/items/Seal_Piece_3.png",
+    "codes": "Seal_Piece_3"
+  },
+  {
+    "name": "Dark Jak",
+    "type": "toggle",
+    "img": "images/items/Dark_Jak.png",
+    "codes": "Dark_Jak"
+  },
+  {
+    "name": "Dark Bomb",
+    "type": "toggle",
+    "img": "images/items/Dark_Bomb.png",
+    "codes": "Dark_Bomb"
+  },
+  {
+    "name": "Dark Blast",
+    "type": "toggle",
+    "img": "images/items/Dark_Blast.png",
+    "codes": "Dark_Blast"
+  },
+  {
+    "name": "Dark Invincibility",
+    "type": "toggle",
+    "img": "images/items/Dark_Invinciblity.png",
+    "codes": "Dark_Invincibility"
+  },
+  {
+    "name": "Dark Giant",
+    "type": "toggle",
+    "img": "images/items/Dark_Giant.png",
+    "codes": "Dark_Giant"
+  },
+  {
+    "name": "Titan Suit",
+    "type": "toggle",
+    "img": "images/items/Titan_Suit_render.png",
+    "codes": "Titan_Suit, suit"
+  },
+    {
+    "name": "Gunpod",
+    "type": "toggle",
+    "img": "images/items/Gunpod.png",
+    "codes": "Gunpod"
+  },
+  {
+    "name": "Ruby Key",
+    "type": "toggle",
+    "img": "images/items/Ruby_key.png",
+    "codes": "Ruby_Key"
+  },
+  {
+    "name": "Life Seed",
+    "type": "toggle",
+    "img": "images/items/Life_Seed.png",
+    "codes": "Life_Seed"
+  },
+  {
+    "name": "JET-Board",
+    "type": "toggle",
+    "img": "images/items/JET-Board_render.png",
+    "codes": "JET-Board, jet_board"
+  },
+  {
+    "name": "Heart of Mar",
+    "type": "toggle",
+    "img": "images/items/Heart_of_Mar.png",
+    "codes": "Heart_of_Mar, heart"
+  },
+  {
+    "name": "Time Map",
+    "type": "toggle",
+    "img": "images/items/Time_Map.png",
+    "codes": "Time_Map, time"
+  },
+  {
+    "name": "Rift Rider",
+    "type": "toggle",
+    "img": "images/items/Rift_Rider_render.png",
+    "codes": "Rift_Rider, rider"
+  },
+  {
+    "name": "Precursor Stone",
+    "type": "toggle",
+    "img": "images/items/Precursor_Stone.png",
+    "codes": "Precursor_Stone, stone"
+  }
+]

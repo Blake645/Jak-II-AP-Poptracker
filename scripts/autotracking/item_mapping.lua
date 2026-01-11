@@ -1,0 +1,38 @@
+-- use this file to map the AP item ids to your items
+-- first value is the code of the target item and the second is the item type override. The third value is an optional increment multiplier for consumables. (feel free to expand the table with any other values you might need (i.e. special initial values, etc.)!)
+-- here are the SM items as an example: https://github.com/Cyb3RGER/sm_ap_tracker/blob/main/scripts/autotracking/item_mapping.lua
+ITEM_MAPPING = {
+	[1] = {"Scatter_Gun", "toggle"},
+	[2] = {"Blaster", "toggle"},
+	[3] = {"Vulcan_Fury", "toggle"},
+	[4] = {"Peace_Maker", "toggle"},
+	[5] = {"Ammo_Upgrade", "toggle"},
+	[6] = {"Rate_of_Fire_Upgrade", "toggle"},
+	[7] = {"Damage_Upgrade", "toggle"},
+	[8] = {"JET-Board", "toggle"},
+	[9] = {"Dark_Jak", "toggle"},
+	[10] = {"Dark_Bomb", "toggle"},
+	[11] = {"Dark_Blast", "toggle"},
+	[12] = {"Dark_Giant", "toggle"},
+	[13] = {"Dark_Invincibility", "toggle"},
+	[14] = {"Security_pass_Red", "toggle"},
+	[15] = {"Security_pass_Yellow", "toggle"},
+	[16] = {"Security_pass_Green", "toggle"},
+	[17] = {"Security_pass_Purple", "toggle"},
+	[18] = {"Security_pass_Black", "toggle"},
+	[19] = {"Air_Train", "toggle"},
+	[20] = {"Lens", "toggle"},
+	[21] = {"Gear", "toggle"},
+	[22] = {"Shard", "toggle"},
+	[23] = {"Ruby_Key", "toggle"},
+	[24] = {"Heart_of_Mar", "toggle"},
+	[25] = {"Time_Map", "toggle"},
+	[26] = {"Precursor_Stone", "toggle"},
+	[27] = {"Life_Seed", "toggle"},
+	[28] = {"Titan_Suit", "toggle"},
+	[29] = {"Gunpod", "toggle"},
+	[30] = {"Seal_Piece_1", "toggle"},
+	[31] = {"Seal_Piece_2", "toggle"},
+	[32] = {"Seal_Piece_3", "toggle"},
+	[33] = {"Rift_Rider", "toggle"}
+}

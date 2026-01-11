@@ -1,0 +1,64 @@
+{
+  "shared_item_grid": {
+    "type": "array",
+    "orientation": "vertical",
+    "margin": "0,0",
+    "content": [
+          {
+            "type": "itemgrid",
+            "item_margin": "1, 1",
+            "item_size": "100,100",
+            "h_alignment": "left",
+            "rows": [
+              [
+                "Security_pass_Red",
+                "Security_pass_Yellow",
+                "Security_pass_Green",
+                "Security_pass_Purple",
+                "Security_pass_Black",
+                "Air_Train"
+              ],
+              [
+                "Scatter_Gun", 
+                "Blaster",
+                "Vulcan_Fury", 
+                "Peace_Maker"
+              ],
+              [
+                "Rate_of_Fire_Upgrade",
+                "Ammo_Upgrade",
+                "Damage_Upgrade",
+                "Gunpod"
+              ],
+              [
+                "Gear",
+                "Lens",
+                "Shard",
+                "Seal_Piece_1",
+                "Seal_Piece_2",
+                "Seal_Piece_3"
+              ],
+              [
+                "Dark_Jak",
+                "Dark_Bomb",
+                "Dark_Blast",
+                "Dark_Invincibility",
+                "Dark_Giant"
+              ],
+              [
+                "JET-Board",
+                "Titan_Suit",
+                "Ruby_key",
+                "Life_Seed"
+              ],
+              [
+                "Heart_of_Mar",
+                "Time_Map",
+                "Rift_Rider",
+                "Precursor_Stone"
+              ]
+            ]
+          }
+        ]
+      }
+  }

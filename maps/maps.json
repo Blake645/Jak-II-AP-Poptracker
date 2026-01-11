@@ -1,0 +1,122 @@
+[
+  {
+    "name": "Haven City",
+    "location_size": 48,
+    "location_border_thickness": 4,
+    "img": "images/maps/Heaven_City_Map.png"
+  },
+  {
+    "name": "Dead Town",
+    "location_size": 48,
+    "location_border_thickness": 4,
+    "img": "images/maps/Dead_Town_map.png"
+  },
+  {
+    "name": "Dig Site 1",
+    "location_size": 48,
+    "location_border_thickness": 4,
+    "img": "images/maps/Dig_site_map_1.png"
+  },
+  {
+    "name": "Dig Site 2",
+    "location_size": 48,
+    "location_border_thickness": 4,
+    "img": "images/maps/Dig_site_map_2.png"
+  },
+  {
+    "name": "Drill Platform",
+    "location_size": 48,
+    "location_border_thickness": 4,
+    "img": "images/maps/Drill_platform_map.png"
+  },
+  {
+    "name": "Haven Forest",
+    "location_size": 48,
+    "location_border_thickness": 4,
+    "img": "images/maps/Haven_Forest_map.png"
+  },
+  {
+    "name": "Haven Palace",
+    "location_size": 48,
+    "location_border_thickness": 4,
+    "img": "images/maps/Haven_Palace_map.png"
+  },
+  {
+    "name": "The Fortress",
+    "location_size": 48,
+    "location_border_thickness": 4,
+    "img": "images/maps/Krimzon_Guard_fortress_map.png"
+  },
+  {
+    "name": "Landing Platform",
+    "location_size": 48,
+    "location_border_thickness": 4,
+    "img": "images/maps/Landing_pad_map.png"
+  },
+  {
+    "name": "Metal Head Nest",
+    "location_size": 48,
+    "location_border_thickness": 4,
+    "img": "images/maps/Metal_Head_nest_map.png"
+  },
+  {
+    "name": "Mountain Temple",
+    "location_size": 48,
+    "location_border_thickness": 4,
+    "img": "images/maps/Mountain_Temple_map.png"
+  },
+  {
+    "name": "Palace Roof",
+    "location_size": 48,
+    "location_border_thickness": 4,
+    "img": "images/maps/Palace_Roof_map.png"
+  },
+  {
+    "name": "Pumping Station",
+    "location_size": 48,
+    "location_border_thickness": 4,
+    "img": "images/maps/Pumping_station_map.png"
+  },
+  {
+    "name": "Sewers 1",
+    "location_size": 48,
+    "location_border_thickness": 4,
+    "img": "images/maps/Sewers_map_1.png"
+  },
+  {
+    "name": "Sewers 2",
+    "location_size": 48,
+    "location_border_thickness": 4,
+    "img": "images/maps/Sewers_map_2.png"
+  },
+  {
+    "name": "Sewers 3",
+    "location_size": 48,
+    "location_border_thickness": 4,
+    "img": "images/maps/Sewers_map_3.png"
+  },
+  {
+    "name": "Strip Mine",
+    "location_size": 48,
+    "location_border_thickness": 4,
+    "img": "images/maps/Strip_mine_map.png"
+  },
+  {
+    "name": "Mar's Tomb",
+    "location_size": 48,
+    "location_border_thickness": 4,
+    "img": "images/maps/Tomb_of_Mar_map.png"
+  },
+  {
+    "name": "Underport",
+    "location_size": 48,
+    "location_border_thickness": 4,
+    "img": "images/maps/Underport_map.png"
+  },
+  {
+    "name": "Weapons Factory",
+    "location_size": 48,
+    "location_border_thickness": 4,
+    "img": "images/maps/Weapons_factory_map.png"
+  }  
+]

@@ -1,0 +1,1488 @@
+[
+  {
+      "name": "Escape from Prison",
+      "sections": [
+        {
+            "item_count": 1 
+        }
+      ],
+      "map_locations":[
+        {
+        "map": "The Fortress",
+                "x": 583,
+                "y": 13,
+                "size": 10
+        }
+      ]
+  },
+        {
+            "name":"Blow up Ammo at Fortress",
+            "sections": [
+              {
+                "item_count": 1
+              }
+            ],
+            "map_locations":[
+              {
+                "map":"The Fortress",
+                "x": 953,
+                "y": 626,
+                "size": 10
+              }
+            ]
+        },
+        {
+          "name": "Rescue Friends At Fortress",
+          "sections": [
+            {
+              "access_rules": ["any_gun, jet_board"],
+              "item_count": 1
+            }
+          ],
+          "map_locations":[
+            {
+              "map":"The Fortress",
+              "x": 324,
+              "y": 109,
+              "size": 10
+            }
+          ]
+        },
+        {
+          "name": "Retrieve banner from Dead Town",
+          "sections": [
+            {
+              "item_count": 1
+            }
+          ],
+          "map_locations":[
+            {
+              "map": "Dead Town",
+              "x": 623,
+              "y": 674,
+              "size": 10
+            }
+          ]
+        },
+        {
+          "name": "Protect Site in Dead Town",
+          "sections":[
+            {
+              "access_rules": ["any_gun"],
+              "item_count": 1
+            }
+          ],
+          "map_locations":[
+            {
+              "map": "Dead Town",
+              "x": 632,
+              "y": 172,
+              "size": 10
+            }
+          ]
+        },
+        {
+          "name":"Get Life Seed in Dead Town",
+          "sections":[
+            {
+              "access_rules": ["any_gun, suit"],
+              "item_count": 1
+            }
+          ],
+          "map_locations":[
+            {
+              "map":"Dead Town",
+              "x": 629,
+              "y": 57,
+              "size": 10
+            }
+          ]
+        },
+        {
+          "name": "Find pumping station valve",
+          "sections":[
+            {
+              "item_count": 1
+            }
+          ],
+          "map_locations":[
+            {
+              "map": "Pumping Station",
+              "x": 466,
+              "y": 489,
+              "size": 10
+            }
+          ]
+        },
+        {
+          "name": "Protect Sig at Pumping Station",
+          "sections":[
+            {
+              "access_rules": [
+                "any_gun, $slums_to_port"
+              ]
+            }
+          ],
+          "map_locations":[
+            {
+              "map":"Pumping Station",
+              "x": 678,
+              "y": 678,
+              "size": 10
+            }
+          ]
+        },
+        {
+          "name": "Find pumping station patrol",
+          "sections":[
+            {
+              "access_rules":["any_gun"],
+              "item_count": 1
+            }
+          ],
+          "map_locations":[
+            {
+              "map": "Pumping Station",
+              "x": 660,
+              "y": 442,
+              "size": 10
+            }
+          ]
+        },
+        {
+          "name": "Rescue Vin at Strip Mine",
+          "sections": [
+            {
+              "access_rules": [
+                "any_gun, $slums_to_port"
+              ],
+              "item_count": 1
+            }
+          ],
+          "map_locations":[
+            {
+              "map": "Strip Mine",
+              "x": 383,
+              "y": 270,
+              "size": 10
+            }
+          ]
+        },
+        {
+          "name": "Blow up Strip Mine Eco Wells",
+          "sections":[
+            {
+              "access_rules": [
+                "jet_board, $slums_to_port"
+              ],
+              "item_count": 1
+            }
+          ],
+          "map_locations":[
+            {
+              "map":"Strip Mine",
+              "x": 371,
+              "y": 105,
+              "size": 10
+            }
+          ]
+        },
+        {
+          "name": "Destroy Eggs in Strip Mine",
+          "sections": [
+            {
+              "access_rules":[
+                "jet_board, $slums_to_port"
+              ],
+              "item_count": 1
+            }
+          ],
+          "map_locations":[
+            {
+              "map":"Strip Mine",
+              "x": 605,
+              "y": 246,
+              "size": 10
+            }
+          ]
+        },
+        {
+          "name": "Sewers 1",
+          "sections":[
+            {
+              "name": "Destroy Turrets in Sewers",
+              "access_rules":[
+                "any_gun, $slums_to_port"
+              ],
+              "item_count": 1
+            }
+          ],
+          "map_locations":[
+            {
+              "map": "Sewers 1",
+              "x": 299,
+              "y": 308,
+              "size": 10
+            }
+          ]
+        },
+        {
+          "name": "Sewers 2",
+          "sections":[
+            {
+              "name": "Drain Sewers to find Statue",
+              "access_rules":[
+                "jet_board, $slums_to_port"
+              ],
+              "item_count": 1
+            }
+          ],
+          "map_locations":[
+            {
+              "map":"Sewers 2",
+              "x": 645,
+              "y": 535,
+              "size": 10
+            }
+          ]
+        },
+        {
+          "name": "Sewers 3",
+          "sections":[
+            {
+              "name" :"Escort Men through Sewers",
+              "access_rules":[
+                "any_gun, $slums_to_port"
+              ]
+            }
+          ],
+          "map_locations":[
+            {
+              "map": "Sewers 3",
+              "x": 672,
+              "y": 493,
+              "size": 10
+            }
+          ]
+        },
+        {
+          "name": "Palace Roof",
+          "sections":[
+            {
+              "name": "Defeat Baron at Palace",
+              "access_rules":[
+                "any_gun, $slums_to_stadium"
+              ],
+              "item_count": 1
+            }
+          ],
+          "map_locations":[
+            {
+              "map": "Palace Roof",
+              "x": 997,
+              "y": 154,
+              "size": 10
+            }
+          ]
+        },
+        {
+          "name": "Support Towers",
+          "sections":[
+            {
+              "name": "Ride Elevator up to Palace",
+              "access_rules":[
+                "any_gun, $slums_to_stadium"
+              ]
+            }
+          ],
+          "map_locations":[
+            {
+              "map": "Palace Roof",
+              "x": 786,
+              "y": 202,
+              "size": 10
+            }
+          ]
+        },
+        {
+          "name": "Destroy eggs at Drill Platform",
+          "sections":[
+            {
+              "access_rules":[
+                "any_gun, Gunpod, $slums_to_port"
+              ]
+            }
+          ],
+          "map_locations":[
+            {
+              "map": "Drill Platform",
+              "x": 762,
+              "y": 454,
+              "size": 10
+            }
+          ]
+        },
+        {
+          "name": "Destroy Ship at Drill Platform",
+          "sections":[
+            {
+              "access_rules":[
+                "Gunpod, $slums_to_port"
+              ]
+            }
+          ],
+          "map_locations":[
+            {
+              "map": "Drill Platform",
+              "x": 827,
+              "y": 120,
+              "size": 10
+            }
+          ]
+        },
+        {
+          "name": "Destroy Drill Platform Tower",
+          "sections":[
+            {
+              "access_rules":[
+                "Blaster, suit, $slums_to_port",
+                "Vulcan_Fury, suit, $slums_to_port"
+              ],
+              "item_count": 1
+            }
+          ],
+          "map_locations":[
+            {
+              "map": "Drill Platform",
+              "x": 613,
+              "y": 663,
+              "size": 10
+            }
+          ]
+        },
+        {
+          "name": "Find lens in Mountain Temple",
+          "sections":[
+            {
+              "access_rules":[
+                "primary_guns, $slums_to_market"
+              ]
+            }
+          ],
+          "map_locations":[
+            {
+              "map": "Mountain Temple",
+              "x": 449,
+              "y": 583,
+              "size": 10
+            }
+          ]
+        },
+        {
+          "name": "Find gear in Mountain Temple",
+          "sections":[
+            {
+              "access_rules":[
+                "primary_guns, $slums_to_market"
+              ],
+              "item_count": 1
+            }
+          ],
+          "map_locations":[
+            {
+              "map": "Mountain Temple",
+              "x": 324,
+              "y": 529,
+              "size": 10
+            }
+          ]
+        },
+        {
+          "name": "Find shard in Mountain Temple",
+          "sections":[
+            {
+              "access_rules":[
+                "primary_guns, $slums_to_market"
+              ],
+              "item_count": 1
+            }
+          ],
+          "map_locations":[
+            {
+              "map": "Mountain Temple",
+              "x": 542,
+              "y": 207,
+              "size": 10
+            }
+          ]
+        },
+        {
+          "name": "No Man's Canyon",
+          "sections":[
+            {
+              "name": "Use Items in No Man's Canyon",
+              "access_rules":[
+                "jet_board, Seal_Piece_1, Seal_Piece_2, Seal_Piece_3, $slums_to_market"
+              ],
+              "item_count": 1
+            }
+          ],
+          "map_locations":[
+            {
+              "map": "Mountain Temple",
+              "x": 846,
+              "y": 6,
+              "size": 10
+            }
+          ]
+        },
+        {
+          "name": "Dig Site 1",
+          "sections":[
+            {
+              "name": "Destroy Equipment at Dig",
+              "access_rules":["jet_board, $slums_to_port"],
+              "item_count": 1
+            }
+          ],
+          "map_locations":[
+            {
+              "map": "Dig Site 1",
+              "x": 776,
+              "y": 378,
+              "size": 10
+            }
+          ]
+        },
+        {
+          "name": "Dig Site 2",
+          "sections":[
+            {
+              "name": "Get Seal Piece at Dig",
+              "access_rules":["any_gun, jet_board, $slums_to_market"],
+              "item_count": 1
+            }
+          ],
+          "map_locations":[
+            {
+              "map": "Dig Site 2",
+              "x": 370,
+              "y": 525,
+              "size": 10
+            }
+          ]
+        },
+        {
+          "name": "Haven Forest",
+          "sections":[
+            {
+              "name": "Catch Scouts in Haven Forest",
+              "access_rules":["jet_board, $slums_to_market"],
+              "item_count": 1
+            },
+            {
+              "name": "Hunt Haven Forest Metal Heads",
+              "access_rules":["any_gun, $slums_to_port, yellow"],
+              "item_count": 1
+            }
+          ],
+          "map_locations":[
+            {
+              "map": "Haven Forest",
+              "x": 552,
+              "y": 47,
+              "size": 10
+            }
+          ]
+        },
+        {
+          "name": "Protect Samos in Haven Forest",
+          "sections":[
+            {
+              "access_rules":["any_gun, Life_Seed, $slums_to_market"],
+              "item_count": 1
+            }
+          ],
+          "map_locations":[
+            {
+              "map": "Haven Forest",
+              "x": 461,
+              "y": 600,
+              "size": 10
+            }
+          ]
+        },
+        {
+          "name": "Pass the first test of Manhood",
+          "sections":[
+            {
+              "access_rules":["Gear, Shard, Lens, $slums_to_market"],
+              "item_count": 1
+            }
+          ],
+          "map_locations":[
+            {
+              "map": "Mar's Tomb",
+              "x": 620,
+              "y": 108,
+              "size": 10
+            }
+          ]
+        },
+        {
+          "name": "Pass the second test of Manhood",
+          "sections":[
+            {
+              "access_rules":["Gear, Shard, Lens, $slums_to_market"],
+              "item_count": 1
+            }
+          ],
+          "map_locations":[
+            {
+              "map": "Mar's Tomb",
+              "x": 454,
+              "y": 108,
+              "size": 10
+            }
+          ]
+        },
+        {
+          "name": "Defeat Baron in Mar's Tomb",
+          "sections":[
+            {
+              "access_rules":["Gear, Shard, Lens, any_gun, $slums_to_market"],
+              "item_count": 1
+            }
+          ],
+          "map_locations":[
+            {
+              "map": "Mar's Tomb",
+              "x": 537,
+              "y": 554,
+              "size": 10
+            }
+          ]
+        },
+        {
+          "name": "Haven Palace",
+          "sections":[
+            {
+              "name": "Explore Palace",
+              "access_rules":["any_gun, jet_board, purple, $slums_to_market"],
+              "item_count": 1
+            }
+          ],
+          "map_locations":[
+            {
+              "map": "Haven Palace",
+              "x": 348,
+              "y": 335,
+              "size": 10
+            }
+          ]
+        },
+        {
+          "name": "Weapons Factory",
+          "sections":[
+            {
+              "name": "Get Heart of Mar in Weapons Lab",
+              "access_rules":["any_gun, black, $slums_to_landing_pad"],
+              "item_count": 1
+            },
+            {
+              "name": "Beat Krew in Weapons Lab",
+              "access_rules":["any_gun, black, $slums_to_landing_pad"],
+              "item_count": 1
+            }
+          ],
+          "map_locations":[
+            {
+              "map": "Weapons Factory",
+              "x": 121,
+              "y": 445,
+              "size": 10
+            }
+          ]
+        },
+        {
+          "name": "Find Sig in Underport",
+          "sections":[
+            {
+              "access_rules":["Ruby_Key, suit, $slums_to_port"],
+              "item_count": 1
+            }
+          ],
+          "map_locations":[
+            {
+              "map": "Underport",
+              "x": 488,
+              "y": 380,
+              "size": 10
+            }
+          ]
+        },
+        {
+          "name": "Escort Sig in Underport",
+          "sections":[
+            {
+              "access_rules":["any_gun, Ruby_Key, suit, $slums_to_port"],
+              "item_count": 1
+            }
+          ],
+          "map_locations":[
+            {
+              "map": "Underport",
+              "x": 221,
+              "y": 210,
+              "size": 10
+            }
+          ]
+        },
+        {
+          "name": "Break Barrier at Nest",
+          "sections":[
+            {
+              "access_rules": ["any_gun, stone, $slums_to_nest"],
+              "item_count": 1
+            }
+          ],
+          "map_locations":[
+            {
+              "map": "Metal Head Nest",
+              "x": 584,
+              "y": 332,
+              "size": 10
+            }
+          ]
+        },
+        {
+          "name": "Attack the Metal Head Nest",
+          "sections":[
+            {
+              "access_rules": ["any_gun, stone, $slums_to_nest"],
+              "item_count": 1
+            }
+          ],
+          "map_locations":[
+            {
+              "map": "Metal Head Nest",
+              "x": 770,
+              "y": 116,
+              "size": 10
+            }
+          ]
+        },
+        {
+          "name": "Defeat Metal Kor at Nest",
+          "sections":[
+            {
+              "access_rules":["any_gun, time, rider, heart, Dark_Jak, stone, $slums_to_nest"],
+              "item_count": 1
+            }
+          ],
+          "map_locations":[
+            {
+              "map": "Metal Head Nest",
+              "x": 873,
+              "y": 1,
+              "size": 10
+            }
+          ]
+        },
+        {
+          "name": "Underground Hideout",
+          "sections":[
+            {
+              "name": "Retrieve banner from Dead Town",
+              "ref": "Retrieve banner from Dead Town/"
+            },
+            {
+              "name": "Find pumping station valve",
+              "ref": "Find pumping station valve/"
+            },
+            {
+              "name": "Blow up Ammo At Fortress",
+              "ref": "Blow up Ammo At Fortress/"
+            },
+            {
+              "name": "Make delivery to Hip Hog Saloon",
+              "access_rules":["red", "yellow"],
+              "item_count": 1
+            },
+            {
+              "name": "Rescue Vin at Strip Mine",
+              "ref": "Rescue Vin at Strip Mine/"
+            },
+            {
+              "name": "Find pumping station patrol",
+              "ref":"Find pumping station patrol/"
+            },
+            {
+              "name": "Shuttle Underground Fighters",
+              "item_count": 1
+            },
+            {
+              "name": "Protect Site in Dead Town",
+              "ref":"Protect Site in Dead Town/"
+            },
+            
+            {
+              "name": "Catch Scouts in Haven Forest",
+              "ref": "Haven Forest/Catch Scouts in Haven Forest"
+            },
+            {
+              "name": "Escort Kid to Power Station",
+              "access_rules":["red"],
+              "item_count": 1
+            },
+            {
+              "name": "Destroy 5 HellCat Crusiers",
+              "access_rules":["any_gun, red"],
+              "item_count": 1
+            },
+            {
+              "name": "Rescue Friends At Fortress",
+              "ref":"Rescue Friends At Fortress/"
+            },
+            {
+              "name": "Protect Hideout from Bombots",
+              "access_rules":["Vulcan_Fury, red"]
+            }
+          ],
+          "map_locations":[
+            {
+              "map": "Haven City",
+              "x": 843,
+              "y": 540,
+              "size": 10
+            }
+          ]
+        },
+        {
+          "name": "Hip Hog Saloon",
+          "sections":[
+            {
+              "name": "Beat Scatter Gun Course",
+              "access_rules":["Scatter_Gun, $slums_to_port"],
+              "item_count": 1
+            },
+            {
+              "name": "Protect Sig at Pumping Station",
+              "ref":"Protect Sig at Pumping Station/"
+            },
+            {
+              "name": "Destroy Turrets in Sewers",
+              "ref": "Sewers 1/Destroy Turrets in Sewers"
+            },
+            {
+              "name": "Beat Blaster Gun Course",
+              "access_rules":["Blaster, $slums_to_port"],
+              "item_count": 1
+            },
+            {
+              "name": "Beat Time to Race Garage",
+              "access_rules":["yellow, $slums_to_port", "red, green, $slums_to_port"],
+              "item_count": 1
+            },
+            {
+              "name": "Collect Money for Krew",
+              "access_rules":["$slums_to_port"]
+            },
+            {
+              "name": "Rescue Lurkers for Brutter #1",
+              "access_rules": ["any_gun, $slums_to_port, yellow"],
+              "item_count": 1
+            },
+            {
+              "name": "Drain Sewers to find Statue",
+              "ref": "Sewers 2/Drain Sewers to find Statue"
+            },
+            {
+              "name": "Escort Men through Sewers",
+              "ref": "Sewers 3/Escort Men through Sewers"
+            },
+            {
+              "name": "Beat Erol in Race Challenge",
+              "access_rules":["yellow, $slums_to_port"],
+              "item_count": 1
+            },
+            {
+              "name": "Hunt Haven Forest Metal Heads",
+              "ref": "Haven Forest/Hunt Haven Forest Metal Heads"
+            },
+            {
+              "name": "Beat the Metal Head Mash Game",
+              "access_rules":["$slums_to_port"],
+              "item_count": 1
+            },
+            {
+              "name": "Find Sig in Underport",
+              "ref": "Find Sig in Underport/"
+            }
+          ],
+          "map_locations":[
+            {
+              "map": "Haven City",
+              "x": 270,
+              "y": 1125,
+              "size": 10
+            }
+          ]
+        },
+        {
+          "name": "Power Station",
+          "sections":[
+            {
+              "name": "Destroy eggs at Drill Platform",
+              "ref": "Destroy eggs at Drill Platform/"
+            },
+            {
+              "name": "Turn on 5 Power Switches",
+              "access_rules":["$slums_to_port"],
+              "item_count": 1
+            },
+            {
+              "name": "Destroy Equipment at Dig",
+              "ref": "Dig Site 1/Destroy Equipment at Dig"
+            },
+            {
+              "name": "Blow up Strip Mine Eco Wells",
+              "ref": "Blow up Strip Mine Eco Wells/"
+            },
+            {
+              "name": "Destroy Ship at Drill Platform",
+              "ref": "Destroy Ship at Drill Platform/"
+            },
+            {
+              "name": "Destroy Eggs in Strip Mine",
+              "ref": "Destroy Eggs in Strip Mine/"
+            },
+            {
+              "name": "Destroy Drill Platform Tower",
+              "ref": "Destroy Drill Platform Tower/"
+            }
+          ],
+          "map_locations":[
+            {
+              "map": "Haven City",
+              "x": 812,
+              "y": 1027,
+              "size": 10
+            }
+          ]
+        },
+        {
+          "name": "Onin's Tent",
+          "sections":[
+            {
+              "name": "Find gear in Mountain Temple",
+              "ref": "Find gear in Mountain Temple/"
+            },
+            {
+              "name": "Find lens in Mountain Temple",
+              "ref": "Find lens in Mountain Temple/"
+            },
+            {
+              "name": "Find shard in Mountain Temple",
+              "ref": "Find shard in Mountain Temple/"
+            },
+            {
+              "name": "Get Seal Piece at Dig",
+              "ref": "Dig Site 2/Get Seal Piece at Dig"
+            },
+            {
+              "name": "Beat Onin's Game",
+              "access_rules":["$slums_to_market"],
+              "item_count": 1
+            },
+            {
+              "name": "Use Items in No Man's Canyon",
+              "ref": "No Man's Canyon/Use Items in No Man's Canyon"
+            },
+            {
+              "name": "Protect Samos in Haven Forest",
+              "ref": "Protect Samos in Haven Forest/"
+            }
+          ],
+          "map_locations":[
+            {
+              "map": "Haven City",
+              "x": 638,
+              "y": 852,
+              "size": 10
+            }
+          ]
+        },
+        {
+          "name": "Race Garage",
+          "sections":[
+            {
+              "name": "Win JET-Board Stadium Challenge",
+              "access_rules":["$slums_to_stadium"],
+              "item_count": 1
+            },
+            {
+              "name": "Win Class 3 Race at Stadium",
+              "access_rules":["$slums_to_stadium"],
+              "item_count": 1
+            },
+            {
+              "name": "Win Class 2 Race at Stadium",
+              "access_rules":["$slums_to_stadium"],
+              "item_count": 1
+            },
+            {
+              "name": "Win Class 1 Race at Stadium",
+              "access_rules":["$slums_to_stadium"],
+              "item_count": 1
+            },
+            {
+              "name": "Defend Stadium",
+              "access_rules":["any_gun, time, rider, heart, $slums_to_stadium"],
+              "item_count": 1
+            }
+          ],
+          "map_locations":[
+            {
+              "map": "Haven City",
+              "x": 346,
+              "y": 304,
+              "size": 10
+            }
+          ]
+        },
+        {
+          "name": "Brutter",
+          "sections":[
+            {
+              "name": "Rescue Lurkers for Brutter #2",
+              "access_rules":["any_gun, $slums_to_market, yellow"],
+              "item_count": 1
+            }
+          ],
+          "map_locations":[
+            {
+              "map": "Haven City",
+              "x": 245,
+              "y": 738,
+              "size": 10
+            }
+          ]
+        },
+        {
+          "name": "Ashelin",
+          "sections":[
+            {
+              "name": "Intercept tanker",
+              "access_rules":["any_gun, $slums_to_market", "Dark_Jak, $slums_to_market"],
+              "item_count": 1
+            }
+          ],
+          "map_locations":[
+            {
+              "map": "Haven City",
+              "x": 508,
+              "y": 706,
+              "size": 10
+            }
+          ]
+        },
+        {
+          "name": "Protect Kor and Kid",
+          "sections":[
+            {
+              "item_count": 1
+            }
+          ],
+          "map_locations":[
+            {
+              "map": "Haven City",
+              "x": 599,
+              "y": 470,
+              "size": 10
+            }
+          ]
+        },
+        {
+          "name": "Construction Site",
+          "sections":[
+            {
+              "name": "Check the Construction Site",
+              "access_rules":["$slums_to_port"],
+              "item_count": 1
+            }
+          ],
+          "map_locations":[
+            {
+              "map": "Haven City",
+              "x": 603,
+              "y": 906,
+              "size": 10
+            }
+          ]
+        },
+        {
+          "name": "Port",
+          "sections":[
+            {
+              "name": "Destroy Cargo in Port",
+              "access_rules":["jet_board, $slums_to_port"],
+              "item_count": 1
+            }
+          ],
+          "map_locations":[
+            {
+              "map": "Haven City",
+              "x": 385,
+              "y": 1264,
+              "size": 10
+            }
+          ]
+        },
+        {
+          "name": "Palace Support Towers",
+          "sections":[
+            {
+              "name": "Ride Elevator up to Palace",
+              "ref": "Support Towers/Ride Elevator up to Palace"
+            },
+            {
+              "name": "Defeat Baron at Palace",
+              "ref": "Palace Roof/Defeat Baron at Palace"
+            }
+          ],
+          "map_locations":[
+            {
+              "map": "Haven City",
+              "x": 395,
+              "y": 425,
+              "size": 10
+            }
+          ]
+        },
+        {
+          "name": "Water Slums",
+          "sections":[
+            {
+              "name": "Get Seal Piece at Water Slums",
+              "access_rules":["any_gun", "jet_board"],
+              "item_count": 1
+            }
+          ],
+          "map_locations":[
+            {
+              "map": "Haven City",
+              "x": 654,
+              "y": 167,
+              "size": 10
+            }
+          ]
+        },
+        {
+          "name": "Mar's Tomb",
+          "sections":[
+            {
+              "name": "Pass the first test of Manhood",
+              "ref": "Pass the first test of Manhood/"
+            },
+            {
+              "name": "Pass the second test of Manhood",
+              "ref": "Pass the second test of Manhood/"
+            },
+            {
+              "name": "Defeat Baron in Mar's Tomb",
+              "ref": "Defeat Baron in Mar's Tomb/"
+            }
+          ],
+          "map_locations":[
+            {
+              "map": "Haven City",
+              "x": 389,
+              "y": 940,
+              "size": 10
+            }
+          ]
+        },
+        {
+          "name": "Computer 1",
+          "sections":[
+            {
+              "name": "Ring Race 1 (Computer #1)",
+              "item_count": 1
+            },
+            {
+              "name": "Ring Race 3 (Computer #1)",
+              "access_rules":["red"],
+              "item_count": 1
+            }
+          ],
+          "map_locations":[
+            {
+              "map": "Haven City",
+              "x": 625,
+              "y": 471,
+              "size": 10
+            }
+          ]
+        },
+        {
+          "name": "Orb Search 1 (Computer #2)",
+          "sections":[
+            {
+              "item_count": 1
+            }
+          ],
+          "map_locations":[
+            {
+              "map": "Haven City",
+              "x": 688,
+              "y": 621,
+              "size": 10
+            }
+          ]
+        },
+        {
+          "name": "Orb Search 2 (Computer #3)",
+          "sections":[
+            {
+              "access_rules":["$slums_to_port"],
+              "item_count": 1
+            }
+          ],
+          "map_locations":[
+            {
+              "map": "Haven City",
+              "x": 669,
+              "y": 846,
+              "size": 10
+            }
+          ]
+        },
+        {
+          "name": "Computer 4",
+          "sections":[
+            {
+              "name": "Orb Search 3 (Computer #4)",
+              "access_rules":["$slums_to_port"],
+              "item_count": 1
+            },
+            {
+              "name": "Port Race Side Mission",
+              "access_rules":["$slums_to_port"],
+              "item_count": 1
+            }
+          ],
+          "map_locations":[
+            {
+              "map": "Haven City",
+              "x": 596,
+              "y": 1249,
+              "size": 10
+            }
+          ]
+        },
+        {
+          "name": "Orb Search 4 (Computer #5)",
+          "sections":[
+            {
+              "item_count": 1
+            }
+          ],
+          "map_locations":[
+            {
+              "map": "Haven City",
+              "x": 549,
+              "y": 232,
+              "size": 10
+            }
+          ]
+        },
+        {
+          "name": "Computer 6",
+          "sections":[
+            {
+              "name": "Collection #1 (Computer #6)",
+              "access_rules":["$slums_to_stadium"],
+              "item_count": 1
+            },
+            {
+              "name": "Orb Search 9 (Computer #6)",
+              "access_rules":["$slums_to_stadium"],
+              "item_count": 1
+            }
+          ],
+          "map_locations":[
+            {
+              "map": "Haven City",
+              "x": 377,
+              "y": 365,
+              "size": 10
+            }
+          ]
+        },
+        {
+          "name": "Computer 7",
+          "sections":[
+            {
+              "name": "Deliver Package Side Mission (Computer #7)",
+              "access_rules":["red, yellow"],
+              "item_count": 1
+            },
+            {
+              "name": "Shuttle Underground Fighters Side Mission (Computer #7)",
+              "access_rules":["red, yellow"],
+              "item_count": 1
+            },
+            {
+              "name": "Orb Search 12 (Computer #7)",
+              "access_rules":["$slums_to_market"],
+              "item_count": 1
+            },
+            {
+              "name": "Destroy Blast Bots Side Mission (Computer #7)",
+              "access_rules":["$slums_to_market, yellow"],
+              "item_count": 1
+            }
+          ],
+          "map_locations":[
+            {
+              "map": "Haven City",
+              "x": 210,
+              "y": 907,
+              "size": 10
+            }
+          ]
+        },
+        {
+          "name": "Computer 8",
+          "sections":[
+            {
+              "name": "Ring Race 2 (Computer #8)",
+              "access_rules":["$slums_to_port, yellow"],
+              "item_count": 1
+            },
+            {
+              "name": "Erol Race Side Mission",
+              "access_rules":["$slums_to_port, yellow"],
+              "item_count": 1
+            }
+          ],
+          "map_locations":[
+            {
+              "map": "Haven City",
+              "x": 244,
+              "y": 1145,
+              "size": 10
+            }
+          ]
+        },
+        {
+          "name": "Orb Search 5 (Computer #9)",
+          "sections":[
+            {
+              "access_rules":["$slums_to_market"],
+              "item_count": 1
+            }
+          ],
+          "map_locations":[
+            {
+              "map": "Haven City",
+              "x": 155,
+              "y": 1017,
+              "size": 10
+            }
+          ]
+        },
+        {
+          "name": "Orb Search 6 (Computer #10)",
+          "sections":[
+            {
+              "access_rules":["$slums_to_market"],
+              "item_count": 1
+            }
+          ],
+          "map_locations":[
+            {
+              "map": "Haven City",
+              "x": 642,
+              "y": 755,
+              "size": 10
+            }
+          ]
+        },
+        {
+          "name": "Orb Search 7 (Computer #11)",
+          "sections":[
+            {
+              "access_rules":["$slums_to_market"],
+              "item_count": 1
+            }
+          ],
+          "map_locations":[
+            {
+              "map": "Haven City",
+              "x": 592,
+              "y": 860,
+              "size": 10
+            }
+          ]
+        },
+        {
+          "name": "Computer 12",
+          "sections":[
+            {
+              "name": "Orb Search 8 (Computer #12)",
+              "access_rules":["$slums_to_market"],
+              "item_count": 1
+            },
+            {
+              "name": "Collection #3 (Computer #12)",
+              "access_rules":["$slums_to_market"],
+              "item_count": 1
+            }
+          ],
+          "map_locations":[
+            {
+              "map": "Haven City",
+              "x": 273,
+              "y": 545,
+              "size": 10
+            }
+          ]
+        },
+        {
+          "name": "Collection #2 (Computer #13)",
+          "sections":[
+            {
+              "access_rules":["$slums_to_stadium"],
+              "item_count": 1
+            }
+          ],
+          "map_locations":[
+            {
+              "map": "Haven City",
+              "x": 406,
+              "y": 510,
+              "size": 10
+            }
+          ]
+        },
+        {
+          "name": "Orb Search 10 (Computer #14)",
+          "sections":[
+            {
+              "access_rules":["$slums_to_port"],
+              "item_count": 1
+            }
+          ],
+          "map_locations":[
+            {
+              "map": "Haven City",
+              "x": 664,
+              "y": 890,
+              "size": 10
+            }
+          ]
+        },
+        {
+          "name": "Orb Search 11 (Computer #15)",
+          "sections":[
+            {
+              "access_rules":["$slums_to_stadium"],
+              "item_count": 1
+            }
+          ],
+          "map_locations":[
+            {
+              "map": "Haven City",
+              "x": 266,
+              "y": 496,
+              "size": 10
+            }
+          ]
+        },
+        {
+          "name": "Orb Search 13 (Computer #16)",
+          "sections":[
+            {
+              "access_rules":["green"],
+              "item_count": 1
+            }
+          ],
+          "map_locations":[
+            {
+              "map": "Haven City",
+              "x": 501,
+              "y": 477,
+              "size": 10
+            }
+          ]
+        },
+        {
+          "name": "Orb Search 14 (Computer #17)",
+          "sections":[
+            {
+              "access_rules":["$slums_to_stadium"],
+              "item_count": 1
+            }
+          ],
+          "map_locations":[
+            {
+              "map": "Haven City",
+              "x": 120,
+              "y": 411,
+              "size": 10
+            }
+          ]
+        },
+        {
+          "name": "Orb Search 15 (Computer #18)",
+          "sections":[
+            {
+              "access_rules":["$slums_to_market"],
+              "item_count": 1
+            }
+          ],
+          "map_locations":[
+            {
+              "map": "Haven City",
+              "x": 344,
+              "y": 723,
+              "size": 10
+            }
+          ]
+        },
+        {
+          "name": "Stadium Computer",
+          "sections":[
+            {
+              "name": "JET-Board Stadium Challenge Side Mission",
+              "access_rules":["$slums_to_stadium"],
+              "item_count": 1
+            },
+            {
+              "name": "Class 3 Race Side Mission (Computer by Stadium)",
+              "access_rules":["$slums_to_stadium"],
+              "item_count": 1
+            },
+            {
+              "name": "Class 2 Race Side Mission (Computer by Stadium)",
+              "access_rules":["$slums_to_stadium"],
+              "item_count": 1
+            },
+            {
+              "name": "Class 1 Race Side Mission (Computer by Stadium)",
+              "access_rules":["$slums_to_stadium"],
+              "item_count": 1
+            }
+          ],
+          "map_locations":[
+            {
+              "map": "Haven City",
+              "x": 459,
+              "y": 162,
+              "size": 10
+            }
+          ]
+        }
+      ]
