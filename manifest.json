@@ -1,0 +1,26 @@
+{
+  "name": "Jak II Archipelago PopTracker",
+  "game_name": "Jak II",
+  "package_version": "1.0.0.",
+  "package_uid": "Jak II Test",
+  "author": "Blake645",
+  "min_poptracker_version": "0.25.9",
+  // put the version you tested against here!
+  "target_poptracker_version": "0.32.0",
+  "variants": {
+    "standard": {
+      "display_name": "Map Tracker",
+      "flags": [
+        // enables AP autotracking interface - remove if not needed
+        "ap"
+      ]
+    },
+    "var_itemsonly": {
+      "display_name": "Items Only",
+      "flags": [
+        // enables AP autotracking interface - remove if not needed
+        "ap"
+      ]
+    }
+  }
+}
